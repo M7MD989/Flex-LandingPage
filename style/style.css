@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+    background: #eee;
+    font-family:monospace;
+}
+
+/* ############HEADER############ */
+.header{
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    background: rgb(5, 14, 66);
+    /* border-bottom: 1px solid  rgb(63, 63, 63); */
+    /* box-shadow: 0 0 8px rgb(255, 255, 255); */
+}
+
+.header-logo,
+.header-links{
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 120px;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color:rgba(240, 248, 255, 0.781);
+}
+  
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+/* #################END################ */
+
+/* #################SECTION 1 ############## */
+.section1{
+    display: flex;
+    height: 400px;
+    justify-content: space-between;
+    background: rgb(5, 14, 66);
+    /* border-bottom: 1px solid #ddd; */
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.281);
+}
+
+.RP1{
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    padding-top: 80px;
+    gap: 15px;
+}
+
+.LP1{
+    display: flex;
+    padding-right: 120px;
+    padding-top: 80px;
+}
+
+.RP1-header{
+    font-size: 40px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.RP1-text{
+    display: flex;
+    width: 60px;
+    flex-wrap: wrap;
+    color: rgba(240, 248, 255, 0.719);
+    font-size: 25px;
+}
+
+.RP1-button button {
+    border: none;
+    border-radius: 25px;
+    background: rgb(95, 183, 255);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* #################END################ */
+
+/* #################SECTION 2 ############## */
+.S2-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top:30px ;
+    color:rgb(5, 14, 66) ;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+.container img{
+    border: 5px solid rgb(5, 14, 66);
+    border-radius: 10px;
+}
+
+.S2-info{
+    display: flex;
+    width: 150px;
+    height: 200px;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 18px;
+    color:rgba(5, 14, 66, 0.603) ;
+}
+/* #################END################ */
+
+/* #################SECTION 3 ############## */
+.section3{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    background: rgb(219, 219, 219);
+    /* border-bottom: 1px solid #ddd; */
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.281);
+}
+
+.S3-text{
+    font-size: 25px;
+    color: rgba(5, 14, 66, 0.76);
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+}
+
+.S3-container{
+    display: flex;
+    justify-content: flex-end;
+    width: 800px;
+}
+
+.S3-text2{
+    font-size: 20px;
+    color: rgba(5, 14, 66, 0.76);
+    font-weight: bold;
+}
+/* #################END################ */
+
+/* #################SECTION 4 ############## */
+.section4{
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.S4-container{
+    display: flex;
+    height: 150px;
+    width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(114, 176, 235);
+    border-radius: 10px;
+}
+
+.S4-text{
+    margin-left: 30px;
+}
+
+.S4-text1{
+    font-size: 25px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.S4-text2{
+    font-size: 20px;
+    color: rgba(240, 248, 255, 0.658);
+}
+
+.S4-button-container{
+    margin-right:90px ;
+}
+
+.S4-button{
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    background: rgb(114, 176, 235);
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    height: 40px;
+    width: 150px;
+}
+/* #################END################ */
+
+/* #################FOOTER ############## */
+.Footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background: rgb(5, 14, 66) ;
+}
+
+.F-text{
+    font-size: 18px;
+    color: aliceblue;
+}
